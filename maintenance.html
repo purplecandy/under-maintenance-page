@@ -1,0 +1,45 @@
+<!doctype html>
+<head>
+<title>Under Maintenance</title>		  
+<link type="text/css" rel="stylesheet" href="file:///F:\Websites\Maintainence\compiled\flipclock.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="file:///F:\Websites\Maintainence\compiled\flipclock.js"></script>
+</head>
+<body>
+    
+    <h1>Under Maintenance</h1>
+    <div>
+        <p>Sorry we are currently wroking on something. If you want any help please <a href="mailto:#">contact us</a></p>
+    </div>
+<br/>
+<br/>
+	<div class="clock" style="margin:2em;width:700px; margin:0 auto;"></div>
+	<div class="message"></div>
+
+	<script type="text/javascript">
+		var clock;
+		
+		$(document).ready(function() {
+			var clock;
+
+			clock = $('.clock').FlipClock({
+		        clockFace: 'DailyCounter',
+		        autoStart: false,
+		        callbacks: {
+		        	stop: function() {
+		        		$('.message').html('The clock has stopped!')
+		        	}
+		        }
+		    });
+				    
+		    clock.setTime(220880);
+		    clock.setCountdown(true);
+		    clock.start();
+
+		});
+	</script>
+	
+</body>
+
+	
+
