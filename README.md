@@ -1,29 +1,6 @@
-# FlipClock.js
+# Under Maintencane Page
 
-### Installation
+### Description
 
-FlipClock.js can be installed in the following ways:
+This is an Under Maintenance Page Template for websites with Countdown timer. Countdown timer is taken from http://flipclockjs.com/ .
 
-#### Bower
-
-	bower install FlipClock
-
-#### Node (NPM)
-
-	npm install flipclock
-
-#### Download .zip
-
-[Download .ZIP](https://github.com/objectivehtml/FlipClock/releases)
-
----
-
-### Demo & Documentation
-
-Website and documentation at http://flipclockjs.com/
-
----
-
-### License
-
-Copyright (c) 2013 Objective HTML, LCC shared under MIT LICENSE
